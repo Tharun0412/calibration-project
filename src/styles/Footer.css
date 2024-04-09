@@ -1,0 +1,21 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.footer {
+    height: 30px;
+    width: 100%;
+    background: #ced8ff;
+    
+    position: fixed;
+    bottom: 0; 
+}
+
+h1 {
+    font-size: 20px;
+    text-align: start;
+    /* text-align: center; */
+    transform: translate(-70px,0px);
+}
+

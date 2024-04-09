@@ -1,0 +1,126 @@
+.dateInfo {
+    margin: 20px;
+    overflow: hidden;
+    border-radius: 5px;
+box-shadow: 0 0 10px ;
+padding-bottom: 2px;
+}
+
+.dateInfo > div {
+    display: inline-block;
+    /* margin-right: 20px; */
+}
+
+h1 {
+    margin-left: 20px;
+    margin-right: 10px; /* Adjust margin */
+    margin-bottom: 5px; /* Adjust margin */
+    font-size: 20px; /* Reduce font size */
+}
+
+.react-datepicker__input-container input {
+    width: 200px; /* Adjust width */
+    padding: 3px; /* Adjust padding */
+    font-size: 12px; /* Reduce font size */
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.react-datepicker__day-name,
+.react-datepicker__day {
+    width: 30px; /* Adjust width */
+    line-height: 20px; /* Adjust line height */
+    margin: 2px;
+    font-size: 12px; /* Reduce font size */
+}
+
+
+.dateInfo h1 {
+    display: inline-block;
+}
+
+.react-datepicker__month-container {
+    z-index: 9999 !important;
+}
+
+.react-datepicker {
+    font-family: Arial, sans-serif;
+}
+
+.react-datepicker__header {
+    background-color: #f0f0f0;
+    border-bottom: 1px solid #ddd;
+}
+
+.react-datepicker__current-month {
+    font-size: 15px; /* Adjust font size for the current month */
+}
+
+.react-datepicker__day-name,
+.react-datepicker__day {
+    width: 0px;
+    line-height: 30px;
+    margin: 2px;
+    font-size: 15px; /* Adjust font size for the days */
+}
+
+.react-datepicker__day:hover {
+    background-color: #f0f0f0;
+}
+
+.react-datepicker__day--selected {
+    background-color: #007bff;
+    color: #fff;
+}
+
+.react-datepicker__day--keyboard-selected {
+    background-color: #007bff;
+    color: #fff;
+}
+
+.react-datepicker__day--today {
+    font-weight: bold;
+}
+
+.react-datepicker__time-container {
+    display: none !important;
+} 
+
+/* this is for table property */
+
+/* Table */
+
+.table-container {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+.my-table {
+    width: 100%;
+    overflow: hidden;
+    border-collapse: collapse;
+    
+  }
+
+  .my-table th,
+  .my-table td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  /* Table Header */
+  .my-table th {
+    background-color: #f2f2f2;
+  }
+  
+  /* Table Body */
+  .my-table tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+
+  .report-div{
+    margin: 20px;
+    overflow: hidden;
+    border-radius: 5px;
+  }
