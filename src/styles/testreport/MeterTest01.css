@@ -1,0 +1,55 @@
+table,  td {
+    border: 1px solid black;
+    border-collapse: collapse;
+  }
+
+.metertestid {
+    width: 100%;
+    height: 10px;
+  }
+  .metertestid td {
+    padding: 2px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  #metertestid td {
+    border: 1px solid #dddddd;
+    /* text-align: left; */
+    padding: 2px;
+  }
+  
+  #metertestid .xiotalogo {
+    width: 80px;
+  }
+  
+  #metertestid .testid {
+    font-weight: bold;
+    text-align: center;
+    font-size: 15px;
+    width: 400px;
+  }
+
+  #text1 {
+    padding: 2px;
+    width: 120px;
+    font-size: 12px;
+    font-weight: bold;
+  }
+
+  #companyDtls{
+   
+    font-weight: bold;
+    font-size: 15px;
+    text-align: center;
+    vertical-align: middle;
+    
+  }
+
+
+
+
+  /* #metertestid tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+   */
